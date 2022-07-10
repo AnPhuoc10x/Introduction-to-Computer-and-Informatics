@@ -1,100 +1,89 @@
-div#Page-title{
-  height:500px;
-  background-image: linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)), url("images/header.jpg");
-  display:flex;
+#logo {
+  display: flex;
   justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  padding: 10px;
 }
-h1.title{
-  color:white;
-  max-width: 780px;
-  text-align:center;
-  font-family:Roboto Slab, serif;
-  font-size:36px;
+video {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 30px;
+  padding-top: 50px;
 }
-div.flex-container{
-  display:flex;
-
-  justify-content: center;
-  align-items: center;
-  line-height:24px; 
-}
-p.name{
-  font-family:Source Sans Pro, sans-seri;
-  font-size: 18px;
-  color: rgb(51 ,51 ,51);
-  font-weight:bold;
-  padding-right:50px;
-}
-p.update{
-  font-style:italic;
-  color:rgb(51 ,51 ,51);
-  font-family:Source Sans Pro, sans-seri;
-  font-size: 18px;
-  padding-left:50px;
-}
-img.ProfilePic{
-  border-radius:100%;
-  width:100px;
-  display: block;
-  margin-top:-50px;
-  margin-right: auto;
-  margin-left:auto;
-  border: 1px solid white;
-}
-p.heading{
-  font-family:Roboto Slab, serif;
-  font-size:36px;
-  font-weight:bold;
-  color: rgb(51,51,51);
-  margin-top:60px;
-  margin-bottom:20px;
-}
-span{
-  color:rgba(0, 0, 0, 0.25);
+.productDescription {
+  font-size: 25px;
+  top: 100px;
   position: relative;
-  right: 70px;
 }
-a{
-  color: #42b4d6;
-  text-decoration:none;
+.productDescription2 {
+  font-size: 25px;
+  top: 100px;
+  position: relative;
+  right:-50%;
 }
-a:hover{
-  text-decoration:underline;
-}
-div.ranking-1, div.ranking-2, div.ranking-3{
-  
-  display:flex;
-  justify-content: center;
-  font-family:Source Sans Pro, sans-serif;
-  font-size:18px;
-  line-height:32px;
-  color:rgb(51, 51,51);
-}
-div.left-border{
-  width:40px;
- 
-}
-div.content{
-  width: 66.67%;
 
+.ShowmoreButton1 {
+  top: 150px;
+  position: relative;
 }
-p.description{
-  margin-top:20px;
-  margin-bottom:20px;
+.ShowmoreButton2 {
+  top:3200px;
+  position: absolute;
+  left:50%;
 }
-p.recommendation{
-  margin-top:20px;
-  margin-bottom:20px;
-  font-weight:bold;
-}
-img.body{
-  margin-bottom: 120px;
+
+#Product1 {
+  position: relative;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
+  left: 50%;
+  width: 50%;
+}
+.productName {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Mulish, arial;
+  color: blue;
+  position: relative;
+  top: 100px;
+}
+.productName2 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Mulish, arial;
+  color: blue;
+  position: relative;
+  top: 100px;
+  right: -50%;
+}
+
+body {
+  font-family: abelregular, arial;
+}
+#intro {
+  text-align: center;
+  font-size: 25px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+#ProductInfo1 {
+  display: none;
+  position:relative;
+  top:200px;
+}
+#ProductInfo2 {
+  display: none;
+  right:-50%;
+    position:relative;
+  top:150px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
