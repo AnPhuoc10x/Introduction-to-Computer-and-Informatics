@@ -84,6 +84,8 @@ h2 {
 
 .footer {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+justify-content: space-around;
+  font-weight:bold;
+  font-size:26px;
+  
 }
